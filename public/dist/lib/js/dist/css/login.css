@@ -1,0 +1,32 @@
+
+.forget{
+float:right;
+font-size: 80%;
+position: relative;
+top:-10px
+}
+.separar{
+	padding-top:30px;
+}
+.information{
+	
+	border-top: 1px solid#888;
+	padding-top:15px;
+	font-size:85%;
+}
+.send{
+	margin-top:10px;
+}
+.mainbox{
+margin-top:50px;
+}
+.titles{
+	color: blue;
+	font-size: 20px;
+	font-family: 'Times New Roman', Times, serif;
+
+}
+.border{
+border-bottom: medium double #369;
+}
+

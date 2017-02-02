@@ -1,0 +1,5 @@
+suites:
+    main:
+        namespace: Scpm
+        psr4_prefix: Scpm
+        src_path: app

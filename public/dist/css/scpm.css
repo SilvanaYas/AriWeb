@@ -1,0 +1,188 @@
+.popover {
+  z-index: 999999;
+}
+.contenido{
+	background-color: #ecf1ef;
+}
+.separador{
+	height: 10px;
+}
+.separador-login{
+	height: 110px;
+}
+/*BANNER ari*/
+.banner{
+    height: 300px;
+    background-image: url('/img/ari.jpg');
+}
+/*Banner de la SCPM*/
+.bannerp{
+    background-image: url('/img/Banner2.JPG');
+    height: 100px;
+}
+.submenu{
+  background-image: url('/img/menu2.JPG');
+  height: 40px;
+}
+
+/*EStilo para los iconos del Inicio*/
+.iconos{
+width:150px;
+    height:150px;
+    border-radius:150px;
+    border:1px solid #666; 
+}
+.text-white{
+	font-weight: bold;
+	right: 70px;
+	padding-top: 10px;
+	position:absolute;
+	 z-index:1;
+	 color: white;
+}
+.text-white:hover{
+	position:absolute;
+	 z-index:1;
+	 color: yellow;
+}
+
+.titles{
+	color: #0040FF;
+	font-style: bold;
+	text-align: justify;
+}
+.text-justify{
+	text-align: left;
+}
+
+/*EStilo para el menu del bsucador de mapa*/
+.mapa-content{
+  background-color: grey;
+}
+.mapa-content:hover{
+  background-color: blue;
+}
+
+/*EStilo para el mapa de branch*/
+
+#map-canvas {
+    height: 350px;
+    width: 560px;
+    padding-left: 40px;
+}
+#map {
+    height: 400px;
+    width: 400px;
+    padding-left: 100px;
+}
+
+.boxes li div:hover{
+ background-color:white;
+ color: white;
+}
+
+.text-black{
+	color: black;
+	font-style: bold;
+	font-weight: 200;
+}
+.text-blue{
+color: blue;
+}
+.text-red{
+  color: red;
+  z-index: 40;
+}
+.color-red{
+	color: red;
+	font-size: 8px;
+}
+.blank{
+	background-color: white;
+}
+
+
+/*FOOTER*/
+
+footer {
+	padding: 40px 0 40px;
+	background-color: #081e47;
+	-webkit-background-size: cover;
+	background-size: cover;
+	color: #9d9d9d;
+	font-size: 15px;
+}
+
+footer .trial-button {
+	overflow: hidden !important;
+	margin: 40px 0;
+}
+
+footer .open-blink {
+	content: ' ';
+	position: relative;
+	display: inline-block;
+	width: 14px;
+	height: 14px;
+	margin: 0 20px;
+	border-radius: 50%;
+	background-color: #4caf50;
+	-webkit-animation-name: flash;
+	animation-name: flash;
+	-webkit-animation-duration: 1s;
+	animation-duration: 1s;
+	-webkit-animation-iteration-count: infinite;
+	animation-iteration-count: infinite;
+}
+
+footer .open-blink:before {
+	content: ' ';
+	position: absolute;
+	top: -8px;
+	left: -8px;
+	display: inline-block;
+	width: 30px;
+	height: 30px;
+	opacity: 0.1;
+	border-radius: 50%;
+	background-color: #4caf50;
+}
+
+footer .opening-hours {
+	margin-top: 60px;
+}
+
+footer .bottom-footer {
+	margin-top: 150px;
+}
+
+footer .social-footer {
+	padding: 0;
+	list-style: none;
+}
+
+footer .social-footer li {
+	display: inline-block;
+	margin: 0 10px;
+}
+
+footer .social-footer li a {
+	font-size: 24px;
+	color: #fff;
+}
+
+footer .social-footer li:hover a {
+	color: #00a8ff;
+}
+.enter{
+	height: 20px;
+}
+.center{
+	text-align: center;
+}
+.red{
+	color: red;
+}
+.green{
+	color: green;
+}

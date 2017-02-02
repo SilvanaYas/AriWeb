@@ -1,0 +1,80 @@
+        body{
+          font-family: sans-serif;
+          text-align: justify;
+        }
+        @page {
+          margin: 160px 50px;
+        }
+        header {
+          position: fixed;
+          left: 10px;
+          top: -120px;
+          right: 0px;
+          height: 100px;
+          text-align: center;
+        }
+       header img{
+        position: left;
+        margin:0 auto;
+        border-radius: 20px;
+       }
+        header h3{
+          margin: 10px 0;
+        }
+        header h2{
+          margin: 0 0 10px 0;
+        }
+        footer {
+          position: fixed;
+          left: 0px;
+          bottom: -50px;
+          right: 0px;
+          height: 40px;
+          border-bottom: 2px solid #ddd;
+        }
+        footer .page:after {
+          content: counter(page);
+        }
+        footer table {
+          width: 100%;
+        }
+        footer p {
+          text-align: right;
+
+        }
+        footer .izq {
+          text-align: left;
+        }
+        footer .blue {
+          color:blue;
+        }
+        .number{
+          color:red;
+        }
+
+  
+
+  /*ESTILO PARA LA TABLA*/
+
+
+table {    
+   text-align: left;
+}
+
+th {
+
+  font-size: 15px;
+  font-weight: normal;
+  padding: 8px;
+  background-color: #0E112C;
+  border-bottom: 1px solid #fff;
+  color: white; 
+}
+
+td {    
+  padding: 8px;
+  border-bottom: 1px solid #fff;
+  color: black;
+  border-top: 1px solid transparent;
+  font-size: 12px;
+  }
